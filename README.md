@@ -7,10 +7,10 @@
 To create a new project using this template, run:
 
 ```bash
-npx create-next-app@latest --example <github-url-or-path-to-this-template> <your-app-name>
+npx create-next-app@latest --example https://github.com/pippoinz/nextjs-template <your-app-name>
 ```
 
-Replace `<github-url-or-path-to-this-template>` with the repository URL or local path, and `<your-app-name>` with your desired project name.
+Replace `<your-app-name>` with your desired project name.
 
 Once created, start the development server:
 
