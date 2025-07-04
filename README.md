@@ -49,6 +49,18 @@ This template comes pre-configured with the following tools and libraries:
 
 ---
 
+## Husky Setup Note
+
+> To enable Husky git hooks, you may need to initialize Husky after creating the project:
+>
+> ```bash
+> npx husky init
+> ```
+>
+> This command will create the Husky scripts folder. After running it, the `pre-commit` file may be modified: consider reverting this file to keep the template's original configuration.
+
+---
+
 ## Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs) – Learn about Next.js features and API.
