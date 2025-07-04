@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Template
 
-## Getting Started
+> This is a **Next.js template** designed to be used with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) via the `--example` option.
 
-First, run the development server:
+## Usage
+
+To create a new project using this template, run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app@latest --example <github-url-or-path-to-this-template> <your-app-name>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Replace `<github-url-or-path-to-this-template>` with the repository URL or local path, and `<your-app-name>` with your desired project name.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Once created, start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd <your-app-name>
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see your app.
+
+---
+
+## Included Packages
+
+This template comes pre-configured with the following tools and libraries:
+
+### Code Quality & Linting
+
+- **[ESLint](https://eslint.org/):** Pluggable JavaScript linter to find and fix problems in your code.
+- **[Prettier](https://prettier.io/):** Opinionated code formatter for consistent code style.
+- **[Commitlint](https://commitlint.js.org/):** Lint commit messages to follow conventional standards.
+- **[Husky](https://typicode.github.io/husky/):** Git hooks made easy, used to enforce code quality before commits.
+
+### Styling & UI
+
+- **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework for rapid UI development.
+- **[shadcn/ui](https://ui.shadcn.com/):** Beautifully designed UI components built on top of Radix UI and Tailwind CSS.
+
+### Type Safety
+
+- **[TypeScript](https://www.typescriptlang.org/):** Strongly typed programming language that builds on JavaScript.
+
+### Automation & Release
+
+- **[semantic-release](https://semantic-release.gitbook.io/semantic-release/):** Fully automated version management and package publishing, integrated via GitHub Actions workflow.
+
+---
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) – Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) – Interactive Next.js tutorial.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
